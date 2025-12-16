@@ -1,0 +1,79 @@
+/* #EE6E4B */
+/* #145665 */
+
+.btn-primary{
+    background-color: #EE6E4B !important;
+}
+
+.footer-ad{
+    background-color: #145665;
+}
+
+.feature-item:hover{
+    background-color: #145665 !important;
+    color: white;
+}
+
+.feature .feature-item:hover a.btn{
+    color: #145665;
+}
+
+.feature .feature-item .feature-icon {
+    color: #145665;
+}
+
+.btn.btn-light {
+    color: #145665;
+    border: none;
+}
+
+.btn.btn-light:hover {
+    background-color: #145665;
+    border: none;
+}
+
+.navbar-light .navbar-nav .nav-item:hover, .navbar-light .navbar-nav .nav-item.active, .navbar-light .navbar-nav .nav-item:hover .nav-link, .navbar-light .navbar-nav .nav-item.active .nav-link {
+    color: rgb(20, 86, 101);
+}
+
+
+.bg-breadcrumb {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(20, 86, 101, 0.9), rgba(0, 0, 0, 0.2)), url(../img/bg-breadcrumb.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 60px 0;
+    transition: 0.5s;
+}
+
+.service .service-item:hover .service-img .service-icon {
+    bottom: 0;
+    color: white;
+    background-color: #145665;
+}
+
+.service .service-item .service-img .service-icon i {
+    color: #145665;
+    transition: 0.5s;
+}
+
+.service-content:hover {
+    background-color: #145665;
+}
+
+.service .service-item .service-content::after {
+    background-color: rgb(20, 86, 101);
+}
+
+.faq-section .accordion .accordion-item .accordion-header .accordion-button {
+    color: var(--bs-white);
+    background: rgba(20, 86, 101, .8);
+    font-size: 18px;
+}
+
+.faq-section .accordion .accordion-item .accordion-header .accordion-button.collapsed {
+    color: #145665;
+    background: var(--bs-light);
+}
