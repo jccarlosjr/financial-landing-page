@@ -114,46 +114,76 @@
         <!-- Header End -->
 
 
-                <!-- Auto Simulation Start -->
-        <div class="text-center mt-5 mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-            <h1 class="display-4 mb-4">Invista no seu Futuro</h1>
-            </p>
+        <!-- Auto Simulation Start -->
+
+        <!-- Título -->
+        <div class="container text-center mt-5 pb-4 wow fadeInUp" data-wow-delay="0.2s">
+        <h1 class="display-5 display-md-4 mb-3">
+            Invista no seu Futuro
+        </h1>
         </div>
-        <div id="auto-simulation" class="container py-5 pb-5 d-flex justify-content-center wow fadeIn" data-wow-delay="0.5s">
-            <div class="col-xl-4 col-md-8">
-                <div class="position-relative rounded-pill mb-4">
-                    <div class="card card-form-ad card-bg shadow hero-header-form">
-                        <div class="card-body p-4 p-xl-6 text-center">
-                            <h2 class="text-100 text-center">Simule Você Mesmo</h2>
-                            <form class="mb-3">
-                                <div class="form-floating mb-3">
-                                    <input class="form-control input-box form-ensurance-header-control" id="neededValue" maxlength="12" type="text" placeholder="name">
-                                    <label for="neededValue">De quanto você precisa?</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <select name="floatingSelect" class="form-select input-box form-ensurance-header-control" id="monthsLoan">
-                                        <option value="" selected disabled></option>
-                                        <option value="6">6 Meses</option>
-                                        <option value="12">12 Meses</option>
-                                        <option value="24">24 Meses</option>
-                                        <option value="36">36 Meses</option>
-                                    </select>
-                                    <label for="floatingSelect">Em quantas vezes?</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input class="form-control form-ensurance-header-control" id="resultAutoSimulation" type="text" readonly>
-                                    <label for="resultAutoSimulation">Sua Prestação</label>
-                                </div>
-                                <div class="col-12 d-grid">
-                                    <a id="btn-get-quote" class="btn btn-primary scroll-to-cotacao rounded-pill">Contrate Agora</a>
-                                </div>
-                            </form>
-                        </div>
+
+        <!-- Card -->
+        <div id="auto-simulation" class="container py-5 wow fadeIn" data-wow-delay="0.5s">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4">
+
+            <div class="card card-form-ad card-bg shadow hero-header-form">
+                <div class="card-body p-3 p-md-4 p-xl-5 text-center">
+
+                <h2 class="mb-4">Simule Você Mesmo</h2>
+
+                <form>
+                    <div class="form-floating mb-3">
+                    <input
+                        class="form-control input-box form-ensurance-header-control"
+                        id="neededValue"
+                        maxlength="12"
+                        type="text"
+                        placeholder="De quanto você precisa?">
+                    <label for="neededValue">De quanto você precisa?</label>
                     </div>
+
+                    <div class="form-floating mb-3">
+                    <select
+                        class="form-select input-box form-ensurance-header-control"
+                        id="monthsLoan">
+                        <option value="" selected disabled></option>
+                        <option value="6">6 Meses</option>
+                        <option value="12">12 Meses</option>
+                        <option value="24">24 Meses</option>
+                        <option value="36">36 Meses</option>
+                    </select>
+                    <label for="monthsLoan">Em quantas vezes?</label>
+                    </div>
+
+                    <div class="form-floating mb-4">
+                    <input
+                        class="form-control form-ensurance-header-control"
+                        id="resultAutoSimulation"
+                        type="text"
+                        readonly>
+                    <label for="resultAutoSimulation">Sua Prestação</label>
+                    </div>
+
+                    <div class="d-grid">
+                    <a
+                        id="btn-get-quote"
+                        class="btn btn-primary btn-lg rounded-pill scroll-to-cotacao">
+                        Contrate Agora
+                    </a>
+                    </div>
+
+                </form>
                 </div>
             </div>
+
+            </div>
         </div>
+        </div>
+
         <!-- Auto Simulation End -->
+
 
         <!-- Service Start -->
         <div class="container-fluid service py-5">
@@ -255,8 +285,6 @@
         </div>
         <!-- Feature End -->
 
-
-
         <!-- FAQs Start -->
         <div class="container-fluid faq-section bg-light py-5">
             <div class="container py-5">
@@ -315,79 +343,108 @@
         <!-- FAQs End -->
 
         <!-- Lead Card Start -->
-        <div id="cotacao-ad-card" class="container py-5 pb-5 d-flex justify-content-center wow fadeIn" data-wow-delay="0.5s">
-            <div class="col-xl-4 col-md-8">
-                <div class="position-relative rounded-pill mb-4">
-                    <div class="card card-form-ad card-bg shadow hero-header-form">
-                        <div class="card-body p-4 p-xl-6 text-center">
-                            <h2 class="text-100 text-center">Simule Agora</h2>
-                            <form class="mb-3">
-                                <div class="form-floating mb-3">
-                                    <input class="form-control input-box form-ensurance-header-control" id="floatingName" type="text" placeholder="name">
-                                    <label for="floatingName">Nome</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input class="form-control input-box form-ensurance-header-control" id="floatingPhone" type="text" placeholder="(11)9 9999-9999" oninput="formatCelphone(this)">
-                                    <label for="floatingPhone">Whatsapp</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input class="form-control input-box form-ensurance-header-control" id="floatingEmail" type="date" placeholder="name@example.com">
-                                    <label for="floatingEmail">Data de Admissão</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <select name="floatingSelect" class="form-select input-box form-ensurance-header-control" id="">
-                                        <option value="" selected disabled></option>
-                                        <option value="Facebook/Instagram">Instagram / Facebook</option>
-                                        <option value="Google">Google</option>
-                                        <option value="Não Sei Informar">Não Sei Informar</option>
-                                    </select>
-                                    <label for="floatingSelect">Como nos Conheceu?</label>
-                                </div>
-                                <div class="col-12 d-grid">
-                                    <button id="btn-get-quote" class="btn btn-primary rounded-pill" type="submit">Enviar</button>
-                                </div>
-                            </form>
-                        </div>
+        <div id="cotacao-ad-card" class="container py-5 wow fadeIn" data-wow-delay="0.5s">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4">
+
+            <div class="card card-form-ad card-bg shadow hero-header-form">
+                <div class="card-body p-3 p-md-4 p-xl-5 text-center">
+
+                <h2 class="mb-4">Simule Agora</h2>
+
+                <form>
+                    <div class="form-floating mb-3">
+                    <input
+                        class="form-control input-box form-ensurance-header-control"
+                        id="floatingName"
+                        type="text"
+                        placeholder="Nome">
+                    <label for="floatingName">Nome</label>
                     </div>
+
+                    <div class="form-floating mb-3">
+                    <input
+                        class="form-control input-box form-ensurance-header-control"
+                        id="floatingPhone"
+                        type="text"
+                        placeholder="(11) 9 9999-9999"
+                        oninput="formatCelphone(this)">
+                    <label for="floatingPhone">Whatsapp</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                    <input
+                        class="form-control input-box form-ensurance-header-control"
+                        id="floatingEmail"
+                        type="date">
+                    <label for="floatingEmail">Data de Admissão</label>
+                    </div>
+
+                    <div class="form-floating mb-4">
+                    <select
+                        class="form-select input-box form-ensurance-header-control"
+                        id="floatingSelect">
+                        <option value="" selected disabled></option>
+                        <option value="Facebook/Instagram">Instagram / Facebook</option>
+                        <option value="Google">Google</option>
+                        <option value="Não Sei Informar">Não Sei Informar</option>
+                    </select>
+                    <label for="floatingSelect">Como nos conheceu?</label>
+                    </div>
+
+                    <div class="d-grid">
+                    <button
+                        id="btn-get-quote"
+                        class="btn btn-primary btn-lg rounded-pill"
+                        type="submit">
+                        Enviar
+                    </button>
+                    </div>
+
+                </form>
                 </div>
             </div>
+
+            </div>
+        </div>
         </div>
         <!-- Lead Card End -->
 
-<!-- Copyright Start -->
-<div class="container-fluid copyright py-4">
-  <div class="container">
-    <div class="row align-items-center text-center text-md-start">
 
-      <!-- Logo + texto -->
-      <div class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-start mb-3 mb-md-0 gap-3">
-        <img src="img/logo_white_ext.png" style="max-width: 150px;" alt="Logo">
-        <span class="text-body">
-          Todos os direitos reservados.
-        </span>
-      </div>
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row align-items-center text-center text-md-start">
 
-      <!-- Botões sociais -->
-      <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end gap-3">
-        <a class="btn btn-md-square rounded-circle btn-ad-footer" href="#">
-          <i class="fab fa-facebook-f"></i>
-        </a>
+            <!-- Logo + texto -->
+            <div class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-start mb-3 mb-md-0 gap-3">
+                <img src="img/logo_white_ext.png" style="max-width: 150px;" alt="Logo">
+                <span class="text-body">
+                Todos os direitos reservados.
+                </span>
+            </div>
 
-        <a class="btn btn-md-square rounded-circle btn-ad-footer"
-           href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado">
-          <i class="fab fa-whatsapp"></i>
-        </a>
+            <!-- Botões sociais -->
+            <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end gap-3">
+                <a class="btn btn-md-square rounded-circle btn-ad-footer" href="#">
+                <i class="fab fa-facebook-f"></i>
+                </a>
 
-        <a class="btn btn-md-square rounded-circle btn-ad-footer"
-           href="https://www.instagram.com/financial.consig/">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </div>
+                <a class="btn btn-md-square rounded-circle btn-ad-footer"
+                href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado">
+                <i class="fab fa-whatsapp"></i>
+                </a>
 
-    </div>
-  </div>
-</div>
-<!-- Copyright End -->
+                <a class="btn btn-md-square rounded-circle btn-ad-footer"
+                href="https://www.instagram.com/financial.consig/">
+                <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+            </div>
+        </div>
+        </div>
+        <!-- Copyright End -->
 
         <!-- Back to Top -->
         <a class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
