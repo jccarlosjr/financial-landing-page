@@ -9,6 +9,10 @@
     background-color: #145665;
 }
 
+.copyright{
+    background-color: #145665 !important;
+}
+
 .feature-item:hover{
     background-color: #145665 !important;
     color: white;
@@ -76,4 +80,14 @@
 .faq-section .accordion .accordion-item .accordion-header .accordion-button.collapsed {
     color: #145665;
     background: var(--bs-light);
+}
+
+.btn-ad-footer{
+    background-color: white;
+    color: #145665;
+}
+
+.btn-ad-footer:hover{
+    background-color: white;
+    color: #EE6E4B;
 }
