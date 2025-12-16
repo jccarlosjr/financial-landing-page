@@ -47,8 +47,8 @@
                     <div class="col-lg-8 text-center text-lg-start mb-lg-0">
                         <div class="d-flex flex-wrap">
                             <div class="ps-3">
-                                <a href="mailto:example@gmail.com" class="text-muted small">
-                                    <i class="fas fa-envelope me-2"></i>financial@gmail.com
+                                <a href="https://www.instagram.com/financial.consig/" class="text-muted small">
+                                    <i class="fab fa-instagram"></i> financial.consig
                                 </a>
                             </div>
                         </div>
@@ -58,7 +58,7 @@
                             <div class="d-flex border-end border-primary pe-3">
                                 <a class="btn p-0 me-3" href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn p-0 me-3" href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado"><i class="fab fa-whatsapp"></i></a>
-                                <a class="btn p-0 me-3" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn p-0 me-3" href="https://www.instagram.com/financial.consig/"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -114,70 +114,50 @@
         <!-- Header End -->
 
 
-        <!-- Feature Start -->
-        <div class="container-fluid feature bg-light py-5">
-            <div class="container py-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h1 class="display-4 mb-4">Segurança Para Você</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="feature-item p-4 pt-0">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="far fa-handshake fa-3x"></i>
-                            </div>
-                            <h4 class="mb-4">Confiança Garantida</h4>
-                            <p class="mb-4">Profissionais certificados pela federação brasileira de bancos
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4 scroll-to-cotacao">Simule Agora</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="feature-item p-4 pt-0 card">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="fa fa-dollar-sign fa-3x"></i>
-                            </div>
-                            <h4 class="mb-4">Dinheiro Rápido</h4>
-                            <p class="mb-4">Garantimos seu empréstimo em até 24 horas
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4 scroll-to-cotacao">Simule Agora</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="feature-item p-4 pt-0 card">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="fa fa-bullseye fa-3x"></i>
-                            </div>
-                            <h4 class="mb-4">Planos Flexíveis</h4>
-                            <p class="mb-4">Atenderemos suas necessidades com nossos planos flexíveis
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4 scroll-to-cotacao">Fazer Cotação</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="feature-item p-4 pt-0 card">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="fa fa-headphones fa-3x"></i>
-                            </div>
-                            <h4 class="mb-4">Suporte Especializado</h4>
-                            <p class="mb-4">Especialistas do mercado prontos para prestar suporte profissional
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4 scroll-to-cotacao">Fazer Cotação</a>
+                <!-- Auto Simulation Start -->
+        <div class="text-center mt-5 mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h1 class="display-4 mb-4">Invista no seu Futuro</h1>
+            </p>
+        </div>
+        <div id="auto-simulation" class="container py-5 pb-5 d-flex justify-content-center wow fadeIn" data-wow-delay="0.5s">
+            <div class="col-xl-4 col-md-8">
+                <div class="position-relative rounded-pill mb-4">
+                    <div class="card card-form-ad card-bg shadow hero-header-form">
+                        <div class="card-body p-4 p-xl-6 text-center">
+                            <h2 class="text-100 text-center">Simule Você Mesmo</h2>
+                            <form class="mb-3">
+                                <div class="form-floating mb-3">
+                                    <input class="form-control input-box form-ensurance-header-control" id="neededValue" maxlength="12" type="text" placeholder="name">
+                                    <label for="neededValue">De quanto você precisa?</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <select name="floatingSelect" class="form-select input-box form-ensurance-header-control" id="monthsLoan">
+                                        <option value="" selected disabled></option>
+                                        <option value="6">6 Meses</option>
+                                        <option value="12">12 Meses</option>
+                                        <option value="24">24 Meses</option>
+                                        <option value="36">36 Meses</option>
+                                    </select>
+                                    <label for="floatingSelect">Em quantas vezes?</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input class="form-control form-ensurance-header-control" id="resultAutoSimulation" type="text" readonly>
+                                    <label for="resultAutoSimulation">Sua Prestação</label>
+                                </div>
+                                <div class="col-12 d-grid">
+                                    <a id="btn-get-quote" class="btn btn-primary scroll-to-cotacao rounded-pill">Contrate Agora</a>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Feature End -->
+        <!-- Auto Simulation End -->
 
-        
         <!-- Service Start -->
         <div class="container-fluid service py-5">
             <div class="container py-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h1 class="display-4 mb-4">Invista no seu Futuro</h1>
-                    </p>
-                </div>
                 <div class="row g-4 justify-content-center">
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item">
@@ -217,6 +197,65 @@
             </div>
         </div>
         <!-- Service End -->
+         
+        <!-- Feature Start -->
+        <div class="container-fluid feature bg-light py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h1 class="display-4 mb-4">Segurança Para Você</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="feature-item p-4 pt-0">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="far fa-handshake fa-3x"></i>
+                            </div>
+                            <h4 class="mb-4">Confiança Garantida</h4>
+                            <p class="mb-4">Profissionais certificados pela federação brasileira de bancos
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4 scroll-to-cotacao">Simule Agora</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-item p-4 pt-0 card">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fa fa-dollar-sign fa-3x"></i>
+                            </div>
+                            <h4 class="mb-4">Dinheiro Rápido</h4>
+                            <p class="mb-4">Garantimos seu empréstimo em até 24 horas
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4 scroll-to-cotacao">Simule Agora</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="feature-item p-4 pt-0 card">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fa fa-bullseye fa-3x"></i>
+                            </div>
+                            <h4 class="mb-4">Planos Flexíveis</h4>
+                            <p class="mb-4">Atenderemos suas necessidades com nossos planos flexíveis
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4 scroll-to-cotacao">Simule Agora</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="feature-item p-4 pt-0 card">
+                            <div class="feature-icon p-4 mb-4">
+                                <i class="fa fa-headphones fa-3x"></i>
+                            </div>
+                            <h4 class="mb-4">Suporte Especializado</h4>
+                            <p class="mb-4">Especialistas do mercado prontos para prestar suporte profissional
+                            </p>
+                            <a class="btn btn-primary rounded-pill py-2 px-4 scroll-to-cotacao">Simule Agora</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+
 
         <!-- FAQs Start -->
         <div class="container-fluid faq-section bg-light py-5">
@@ -275,8 +314,7 @@
         </div>
         <!-- FAQs End -->
 
-        <!-- Testimonial Start -->
-
+        <!-- Lead Card Start -->
         <div id="cotacao-ad-card" class="container py-5 pb-5 d-flex justify-content-center wow fadeIn" data-wow-delay="0.5s">
             <div class="col-xl-4 col-md-8">
                 <div class="position-relative rounded-pill mb-4">
@@ -296,6 +334,15 @@
                                     <input class="form-control input-box form-ensurance-header-control" id="floatingEmail" type="date" placeholder="name@example.com">
                                     <label for="floatingEmail">Data de Admissão</label>
                                 </div>
+                                <div class="form-floating mb-3">
+                                    <select name="floatingSelect" class="form-select input-box form-ensurance-header-control" id="">
+                                        <option value="" selected disabled></option>
+                                        <option value="Facebook/Instagram">Instagram / Facebook</option>
+                                        <option value="Google">Google</option>
+                                        <option value="Não Sei Informar">Não Sei Informar</option>
+                                    </select>
+                                    <label for="floatingSelect">Como nos Conheceu?</label>
+                                </div>
                                 <div class="col-12 d-grid">
                                     <button id="btn-get-quote" class="btn btn-primary rounded-pill" type="submit">Enviar</button>
                                 </div>
@@ -305,7 +352,7 @@
                 </div>
             </div>
         </div>
-        <!-- Testimonial End -->
+        <!-- Lead Card End -->
 
         <!-- Footer Start -->
         <div class="container-fluid footer py-5 wow fadeIn footer-ad" data-wow-delay="0.2s">
@@ -319,7 +366,7 @@
                                         <div class="footer-btn d-flex">
                                             <a class="btn btn-md-square rounded-circle me-3 btn-ad-footer" href="#"><i class="fab fa-facebook-f"></i></a>
                                             <a class="btn btn-md-square rounded-circle me-3 btn-ad-footer" href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado"><i class="fab fa-whatsapp"></i></a>
-                                            <a class="btn btn-md-square rounded-circle me-3 btn-ad-footer" href="#"><i class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-md-square rounded-circle me-3 btn-ad-footer" href="https://www.instagram.com/financial.consig/"><i class="fab fa-instagram"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -332,7 +379,7 @@
         <!-- Footer End -->
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+        <a class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
 
         <!-- JavaScript Libraries -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -369,6 +416,78 @@
                 }
                 input.value = cel;
             }
+
+            const input = document.getElementById('neededValue');
+
+            input.addEventListener('input', function () {
+                let value = this.value.replace(/\D/g, '');
+
+                value = (value / 100).toFixed(2) + '';
+                value = value.replace('.', ',');
+                value = value.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+
+                this.value = 'R$ ' + value;
+            });
+
+            const neededValueInput = document.getElementById('neededValue');
+            const monthsLoanSelect = document.getElementById('monthsLoan');
+            const resultInput = document.getElementById('resultAutoSimulation');
+
+            const factors = {
+                6: 0.1846,
+                12: 0.10046,
+                24: 0.05905,
+                36: 0.0458
+            };
+
+            /* FORMATA PARA R$ */
+            function formatMoney(value) {
+                return value.toLocaleString('pt-BR', {
+                style: 'currency',
+                currency: 'BRL'
+                });
+            }
+
+            /* REMOVE MÁSCARA */
+            function parseMoney(value) {
+                return parseFloat(
+                value.replace(/\D/g, '')
+                ) / 100;
+            }
+
+            /* CALCULA SIMULAÇÃO */
+            function calculateSimulation() {
+                const months = monthsLoanSelect.value;
+                const valueMasked = neededValueInput.value;
+
+                if (!months || !valueMasked) {
+                resultInput.value = '';
+                return;
+                }
+
+                const neededValue = parseMoney(valueMasked);
+                if (!neededValue) {
+                resultInput.value = '';
+                return;
+                }
+
+                const factor = factors[months];
+                const result = neededValue * factor;
+
+                resultInput.value = formatMoney(result);
+            }
+
+            /* MÁSCARA NO INPUT */
+            neededValueInput.addEventListener('input', function () {
+                let value = this.value.replace(/\D/g, '');
+                value = (value / 100).toFixed(2);
+                this.value = formatMoney(Number(value));
+                calculateSimulation();
+            });
+
+            /* EVENTO SELECT */
+            monthsLoanSelect.addEventListener('change', calculateSimulation);
+
         </script>
         
 
