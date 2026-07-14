@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Financial Consig - Consignado CLT</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:slnt,wght@-10..0,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="lib/animate/animate.min.css" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/user.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar px-0 px-lg-4 bg-light py-2 d-none d-lg-block navbar-gray">
+        <div class="container">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <div class="ps-3">
+                            <a href="https://www.instagram.com/financial.consig/" class="text-muted small">
+                                <i class="fab fa-instagram"></i> financial.consig
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-flex justify-content-end">
+                        <div class="d-flex border-end border-primary pe-3">
+                            <a class="btn p-0 me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn p-0 me-3" onclick="fbq('track', 'Contact');"
+                                href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado"><i
+                                    class="fab fa-whatsapp"></i></a>
+                            <a class="btn p-0 me-3" href="https://www.instagram.com/financial.consig/"><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="index.html" class="navbar-brand p-0">
+                    <img src="img/logo.png" id="logo" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars colapse-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-0 mx-lg-auto navbar-gray">
+                        <a href="index" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">Sobre</a>
+                        <a href="#" class="nav-item nav-link">Serviços</a>
+                        <a href="#" class="nav-item nav-link">Contato</a>
+                        <a href="termos-uso.html" class="nav-item nav-link">Termos</a>
+                        <a href="politica-privacidade.html" class="nav-item nav-link">Política</a>
+                        <div class="nav-btn px-3">
+                            <a href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado"
+                                class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0">Simule Agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-xl-flex flex-shrink-0 ps-4">
+                    <a href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado"
+                        class="btn btn-light btn-lg-square rounded-circle position-relative wow tada"
+                        data-wow-delay=".9s">
+                        <i class="fa fa-phone fa-2x"></i>
+                        <div class="position-absolute" style="top: 7px; right: 12px;">
+                            <span><i class="fa fa-comment-dots"></i></span>
+                        </div>
+                    </a>
+                    <div class="d-flex flex-column ms-3">
+                        <span>Fale Conosco</span>
+                        <a href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado"><span class="text-dark">(11) 92218-2332</span></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Feature Start -->
+    <div class="container-fluid feature bg-light py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h1 class="display-4 mb-4">Política de Privacidade</h1>
+            </div>
+            <div class="row g-4">
+                <!-- MAIN CONTENT -->
+                <div class="col-lg-9" data-aos="fade-up">
+
+                    <!-- 1. Introdução -->
+                    <div class="policy-section" id="sec-1">
+                        <h2><span class="section-number">1 -</span> Introdução</h2>
+                        <p>
+                            Esta Política de Privacidade descreve como a empresa <strong>67.509.498 JOSE CARLOS DA COSTA
+                                JUNIOR</strong>, doravante denominada <strong>"Financial Consig"</strong> ou
+                            simplesmente <strong>"nós"</strong>, coleta, utiliza, armazena, compartilha e protege os
+                            dados pessoais dos usuários que interagem com nosso site e canais de atendimento, incluindo
+                            o <strong>WhatsApp Business</strong>.
+                        </p>
+                        <p>
+                            Esta política é elaborada em conformidade com a <strong>Lei Geral de Proteção de Dados
+                                Pessoais — LGPD (Lei nº 13.709/2018)</strong> e demais normas aplicáveis ao setor de
+                            crédito consignado no Brasil.
+                        </p>
+                        <div class="highlight-box">
+                            <strong>Compromisso:</strong> Tratamos seus dados com máxima responsabilidade, transparência
+                            e segurança, utilizando-os exclusivamente para as finalidades descritas nesta política e nas
+                            bases legais previstas em lei.
+                        </div>
+                    </div>
+
+                    <!-- 2. Quem somos -->
+                    <div class="policy-section" id="sec-2">
+                        <h2><span class="section-number">2 -</span> Quem somos — Controlador dos Dados</h2>
+                        <p>O controlador responsável pelo tratamento dos seus dados pessoais é:</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Campo</th>
+                                    <th>Informação</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Razão Social</strong></td>
+                                    <td>67.509.498 JOSE CARLOS DA COSTA JUNIOR</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>CNPJ</strong></td>
+                                    <td>67.509.498/0001-93</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Atividade</strong></td>
+                                    <td>Correspondente bancário / originador de crédito consignado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Localidade</strong></td>
+                                    <td>Nossa Senhora do Socorro / SE — Brasil</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>E-mail (DPO)</strong></td>
+                                    <td><a href="mailto:jc.carlosjunior@outlook.com">jc.carlosjunior@outlook.com</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- 3. Dados coletados -->
+                    <div class="policy-section" id="sec-3">
+                        <h2><span class="section-number">3 -</span> Dados Pessoais Coletados</h2>
+                        <p>Coletamos os seguintes dados pessoais para a prestação dos nossos serviços:</p>
+
+                        <h5 class="mt-3 mb-2" style="font-size:0.95rem; color:var(--primary);">3.1 — Identificação</h5>
+                        <ul>
+                            <li>Nome completo</li>
+                            <li>CPF e RG</li>
+                            <li>Data de nascimento</li>
+                        </ul>
+
+                        <h5 class="mt-3 mb-2" style="font-size:0.95rem; color:var(--primary);">3.2 — Contato</h5>
+                        <ul>
+                            <li>Número de telefone / WhatsApp</li>
+                            <li>Endereço de e-mail</li>
+                        </ul>
+
+                        <h5 class="mt-3 mb-2" style="font-size:0.95rem; color:var(--primary);">3.3 — Dados Financeiros e
+                            Previdenciários</h5>
+                        <ul>
+                            <li>Número de matrícula / benefício</li>
+                            <li>Órgão pagador (INSS, órgão público, empregador)</li>
+                            <li>Margem consignável disponível</li>
+                            <li>Dados bancários (banco, agência, conta) quando necessário</li>
+                        </ul>
+
+                        <h5 class="mt-3 mb-2" style="font-size:0.95rem; color:var(--primary);">3.4 — Dados de Navegação
+                            (quando aplicável)</h5>
+                        <ul>
+                            <li>Endereço IP</li>
+                            <li>Tipo de dispositivo e navegador</li>
+                            <li>Cookies e dados de sessão</li>
+                        </ul>
+
+                        <div class="warning-box">
+                            <strong>Importante:</strong> Nunca solicitamos dados bancários (como senhas ou número
+                            completo de cartão) por canais não oficiais. Desconfie de qualquer solicitação fora dos
+                            canais descritos nesta política.
+                        </div>
+                    </div>
+
+                    <!-- 4. Finalidade -->
+                    <div class="policy-section" id="sec-4">
+                        <h2><span class="section-number">4 -</span> Finalidade do Tratamento</h2>
+                        <p>Seus dados pessoais são utilizados exclusivamente para as seguintes finalidades:</p>
+                        <ul>
+                            <li><strong>Análise e simulação de crédito consignado</strong> — verificar elegibilidade e
+                                calcular condições de proposta.</li>
+                            <li><strong>Comunicação sobre propostas</strong> — via WhatsApp Business, telefone ou
+                                e-mail, dentro dos limites do consentimento obtido.</li>
+                            <li><strong>Intermediação junto a instituições financeiras</strong> — encaminhamento da
+                                proposta aprovada para o banco parceiro.</li>
+                            <li><strong>Cumprimento de obrigações legais e regulatórias</strong> — exigências do Banco
+                                Central, INSS, convênios e demais órgãos competentes.</li>
+                            <li><strong>Melhoria de nossos serviços</strong> — análise agregada e anonimizada de
+                                interações para aprimoramento do atendimento.</li>
+                        </ul>
+                    </div>
+
+                    <!-- 5. Base legal -->
+                    <div class="policy-section" id="sec-5">
+                        <h2><span class="section-number">5 -</span> Base Legal (art. 7º da LGPD)</h2>
+                        <p>O tratamento dos dados pessoais é realizado com fundamento nas seguintes bases legais:</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Base Legal</th>
+                                    <th>Aplicação</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Execução de contrato</strong><br /><small>art. 7º, V</small></td>
+                                    <td>Necessário para análise e intermediação da proposta de crédito solicitada.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Consentimento</strong><br /><small>art. 7º, I</small></td>
+                                    <td>Envio de comunicações comerciais e uso do WhatsApp Business como canal de
+                                        atendimento.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Obrigação legal</strong><br /><small>art. 7º, II</small></td>
+                                    <td>Cumprimento de exigências do BACEN, INSS, convênios e demais regulamentações.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Legítimo interesse</strong><br /><small>art. 7º, IX</small></td>
+                                    <td>Prevenção a fraudes e segurança das operações, desde que não prevaleçam
+                                        interesses do titular.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- 6. Compartilhamento -->
+                    <div class="policy-section" id="sec-6">
+                        <h2><span class="section-number">6 -</span> Compartilhamento de Dados</h2>
+                        <p>Seus dados poderão ser compartilhados com as seguintes categorias de destinatários, sempre
+                            para as finalidades descritas e com garantias contratuais de proteção:</p>
+                        <ul>
+                            <li><strong>Instituições financeiras parceiras</strong> — bancos e correspondentes bancários
+                                para análise e contratação do crédito;</li>
+                            <li><strong>Órgãos consignantes</strong> — INSS, prefeituras, governos estaduais e demais
+                                convênios, para verificação de margem;</li>
+                            <li><strong>Provedores de tecnologia</strong> — incluindo a Meta Platforms (WhatsApp
+                                Business API) e serviços de hospedagem, sob contratos de processamento de dados;</li>
+                            <li><strong>Autoridades governamentais</strong> — quando exigido por lei, decisão judicial
+                                ou regulatória.</li>
+                        </ul>
+                        <div class="highlight-box">
+                            <strong>Não vendemos seus dados.</strong> Em nenhuma hipótese seus dados pessoais são
+                            vendidos, alugados ou cedidos a terceiros para fins comerciais não relacionados à prestação
+                            dos nossos serviços.
+                        </div>
+                    </div>
+
+                    <!-- 7. Armazenamento -->
+                    <div class="policy-section" id="sec-7">
+                        <h2><span class="section-number">7 -</span> Armazenamento e Segurança da Informação</h2>
+                        <p>Adotamos medidas técnicas e organizacionais adequadas para proteger seus dados, incluindo:
+                        </p>
+                        <ul>
+                            <li>Criptografia dos dados em trânsito (TLS/HTTPS);</li>
+                            <li>Controle de acesso restrito apenas a colaboradores autorizados;</li>
+                            <li>Monitoramento e auditoria de acessos aos sistemas;</li>
+                            <li>Backup periódico em ambiente seguro.</li>
+                        </ul>
+                        <p><strong>Prazo de retenção:</strong> Os dados são mantidos pelo período necessário para
+                            cumprimento das finalidades ou das obrigações legais aplicáveis — em geral, mínimo de 5 anos
+                            após o encerramento da relação, conforme normas do Banco Central e legislação vigente.</p>
+                        <p>Após o término do prazo de retenção, os dados são eliminados ou anonimizados de forma segura.
+                        </p>
+                    </div>
+
+                    <!-- 8. Direitos do titular -->
+                    <div class="policy-section" id="sec-8">
+                        <h2><span class="section-number">8 -</span> Direitos do Titular (art. 18 da LGPD)</h2>
+                        <p>Você, como titular dos dados, possui os seguintes direitos, que podem ser exercidos a
+                            qualquer momento:</p>
+                        <div class="rights-grid">
+                            <div class="right-item">Acesso aos dados</div>
+                            <div class="right-item">Correção</div>
+                            <div class="right-item">Anonimização</div>
+                            <div class="right-item">Portabilidade</div>
+                            <div class="right-item">Exclusão</div>
+                            <div class="right-item">Revogação do consentimento
+                            </div>
+                            <div class="right-item">Informação sobre compartilhamento</div>
+                            <div class="right-item">Oposição ao tratamento</div>
+                        </div>
+                        <p class="mt-3">Para exercer qualquer um desses direitos, entre em contato pelo e-mail
+                            <strong><a
+                                    href="mailto:jc.carlosjunior@outlook.com">jc.carlosjunior@outlook.com</a></strong>.
+                            Responderemos no prazo máximo de 15 dias úteis, conforme previsto na LGPD.</p>
+                    </div>
+
+                    <!-- 9. Cookies -->
+                    <div class="policy-section" id="sec-9">
+                        <h2><span class="section-number">9 -</span> Cookies</h2>
+                        <p>Este site pode utilizar cookies para melhorar a experiência de navegação. Os tipos de cookies
+                            utilizados incluem:</p>
+                        <ul>
+                            <li><strong>Cookies estritamente necessários:</strong> essenciais ao funcionamento básico do
+                                site (sessão, segurança);</li>
+                            <li><strong>Cookies analíticos:</strong> coleta de dados anonimizados de navegação para
+                                melhoria do site;</li>
+                            <li><strong>Cookies de preferência:</strong> armazenam configurações escolhidas pelo
+                                usuário.</li>
+                        </ul>
+                        <p>Você pode gerenciar ou desabilitar cookies nas configurações do seu navegador. A desativação
+                            de cookies estritamente necessários pode afetar o funcionamento do site.</p>
+                    </div>
+
+                    <!-- 10. Alterações -->
+                    <div class="policy-section" id="sec-10">
+                        <h2><span class="section-number">10 -</span> Alterações nesta Política</h2>
+                        <p>
+                            Esta política pode ser atualizada periodicamente para refletir mudanças em nossas práticas,
+                            na legislação aplicável ou nos serviços prestados. Quando alterações relevantes forem
+                            realizadas, notificaremos os usuários por meio de aviso destacado em nosso site e/ou via
+                            WhatsApp Business.
+                        </p>
+                        <p>
+                            A data da última atualização estará sempre indicada no cabeçalho desta página. Recomendamos
+                            que você revise esta política periodicamente.
+                        </p>
+                    </div>
+
+                    <!-- 11. Contato / DPO -->
+                    <div class="policy-section" id="sec-11">
+                        <h2><span class="section-number">11 -</span> Contato do Encarregado de Dados (DPO)</h2>
+                        <p>Em caso de dúvidas, solicitações ou reclamações relacionadas ao tratamento de dados pessoais,
+                            entre em contato com nosso Encarregado de Proteção de Dados (DPO):</p>
+                        <div class="highlight-box">
+                            <p class="mb-1"><strong>67.509.498 JOSE CARLOS DA COSTA JUNIOR</strong></p>
+                            <p class="mb-1"><a href="mailto:jc.carlosjunior@outlook.com">jc.carlosjunior@outlook.com</a></p>
+                            <p class="mb-0">Nossa Senhora do Socorro / SE — Brasil</p>
+                        </div>
+                        <p>Você também tem o direito de apresentar reclamação perante a <strong>Autoridade Nacional de
+                                Proteção de Dados (ANPD)</strong>, se considerar que seus direitos foram violados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Footer Start -->
+    <footer>
+        <!-- Top Row -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row g-5">
+
+                    <!-- Col 1: Brand + Dados -->
+                    <div class="col-12 col-md-5">
+                        <img src="img/logo_white_ext.png" style="max-width: 140px;" alt="Logo Financial Consig" class="mb-4">
+                        <p class="footer-brand-desc">
+                            <strong>JOSE CARLOS DA COSTA JUNIOR</strong>
+                            CNPJ: 67.509.498/0001-93<br>
+                            Rua 198, nº 27, Marcos Freire III<br>
+                            Nossa Senhora do Socorro/SE &mdash; CEP 49152-710
+                        </p>
+                        <ul class="footer-contact-list">
+                            <li>
+                                <a href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado">
+                                    <i class="fab fa-whatsapp"></i>
+                                    (11) 92218-2332
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:financialconsig@outlook.com">
+                                    <i class="fas fa-envelope"></i>
+                                    financialconsig@outlook.com
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Col 2: Legal -->
+                    <div class="col-6 col-md-3">
+                        <p class="footer-col-title">Legal</p>
+                        <ul class="footer-nav-list">
+                            <li>
+                                <a href="termos-uso.html">
+                                    <i class="fas fa-chevron-right"></i>
+                                    Termos de Uso
+                                </a>
+                            </li>
+                            <li>
+                                <a href="politica-privacidade.html">
+                                    <i class="fas fa-chevron-right"></i>
+                                    Política de Privacidade
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Col 3: Social -->
+                    <div class="col-6 col-md-4">
+                        <p class="footer-col-title">Siga-nos</p>
+                        <div class="footer-social-wrap">
+                            <a class="footer-social-btn" href="#" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="footer-social-btn"
+                                href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado"
+                                aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a class="footer-social-btn"
+                                href="https://www.instagram.com/financial.consig/"
+                                aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="footer-copyright-text">
+                    &copy; 2025 Financial Consig &mdash; Todos os direitos reservados. &nbsp;|&nbsp;
+                    <a href="termos-uso.html" style="color:rgba(255,255,255,0.35); text-decoration:none;">Termos de Uso</a>
+                    &nbsp;&amp;&nbsp;
+                    <a href="politica-privacidade.html" style="color:rgba(255,255,255,0.35); text-decoration:none;">Política de Privacidade</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script>
+        document.querySelectorAll('.scroll-to-cotacao').forEach(btn => {
+            btn.addEventListener('click', function (e) {
+                const target = document.getElementById('cotacao-ad-card');
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'center'
+                    });
+                }
+            });
+        });
+
+        function formatCelphone(input) {
+            let cel = input.value.replace(/\D/g, "");
+            if (cel.length > 2 && cel.length <= 6) {
+                cel = "(" + cel.slice(0, 2) + ")" + cel.slice(2);
+            } else if (cel.length > 6 && cel.length <= 10) {
+                cel = "(" + cel.slice(0, 2) + ")" + cel.slice(2, 6) + "-" + cel.slice(6);
+            } else if (cel.length > 10) {
+                cel =
+                    "(" + cel.slice(0, 2) + ")" + cel.slice(2, 7) + "-" + cel.slice(7, 11);
+            }
+            input.value = cel;
+        }
+
+        const input = document.getElementById('neededValue');
+
+        input.addEventListener('input', function () {
+            let value = this.value.replace(/\D/g, '');
+
+            value = (value / 100).toFixed(2) + '';
+            value = value.replace('.', ',');
+            value = value.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+
+            this.value = 'R$ ' + value;
+        });
+        const neededValueInput = document.getElementById('neededValue');
+        const monthsLoanSelect = document.getElementById('monthsLoan');
+        const resultInput = document.getElementById('resultAutoSimulation');
+        const factors = {
+            6: 0.1846,
+            12: 0.10046,
+            24: 0.05905,
+            36: 0.0458
+        };
+
+        function formatMoney(value) {
+            return value.toLocaleString('pt-BR', {
+                style: 'currency',
+                currency: 'BRL'
+            });
+        }
+
+        function parseMoney(value) {
+            return parseFloat(
+                value.replace(/\D/g, '')
+            ) / 100;
+        }
+
+        function calculateSimulation() {
+            const months = monthsLoanSelect.value;
+            const valueMasked = neededValueInput.value;
+            if (!months || !valueMasked) {
+                resultInput.value = '';
+                return;
+            }
+            const neededValue = parseMoney(valueMasked);
+            if (!neededValue) {
+                resultInput.value = '';
+                return;
+            }
+            const factor = factors[months];
+            const result = neededValue * factor;
+            resultInput.value = formatMoney(result);
+        }
+
+        neededValueInput.addEventListener('input', function () {
+            let value = this.value.replace(/\D/g, '');
+            value = (value / 100).toFixed(2);
+            this.value = formatMoney(Number(value));
+            calculateSimulation();
+        });
+        monthsLoanSelect.addEventListener('change', calculateSimulation);
+
+        const phoneInput = document.getElementById('floatingPhone');
+        phoneInput.addEventListener('input', function () {
+            let value = this.value.replace(/\D/g, '');
+            if (value.length > 11) value = value.slice(0, 11);
+            value = value.replace(/^(\d{2})(\d)/, '($1)$2');
+            value = value.replace(/(\d{5})(\d)/, '$1-$2');
+            this.value = value;
+        });
+
+    </script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
