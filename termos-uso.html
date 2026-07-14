@@ -1,281 +1,324 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <title>Financial Consig - Consignado CLT</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
+<head>
+    <meta charset="utf-8">
+    <title>Financial Consig - Consignado CLT</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:slnt,wght@-10..0,100..900&display=swap"
+        rel="stylesheet">
 
-        <!-- Libraries Stylesheet -->
-        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="lib/animate/animate.min.css" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/user.css" rel="stylesheet">
-    </head>
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <body>
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/user.css" rel="stylesheet">
+
+    <meta name="facebook-domain-verification" content="5qvs9jul21g3x2waesf56981mm3mu4" />
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
-        <!-- Spinner End -->
+    </div>
+    <!-- Spinner End -->
 
-        <!-- Topbar Start -->
-        <div class="container-fluid topbar px-0 px-lg-4 bg-light py-2 d-none d-lg-block navbar-gray">
-            <div class="container">
-                <div class="row gx-0 align-items-center">
-                    <div class="col-lg-8 text-center text-lg-start mb-lg-0">
-                        <div class="d-flex flex-wrap">
-                            <div class="ps-3">
-                                <a href="https://www.instagram.com/financial.consig/" class="text-muted small">
-                                    <i class="fab fa-instagram"></i> financial.consig
-                                </a>
-                            </div>
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar px-0 px-lg-4 bg-light py-2 d-none d-lg-block navbar-gray">
+        <div class="container">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <div class="ps-3">
+                            <a href="https://www.instagram.com/financial.consig/" class="text-muted small">
+                                <i class="fab fa-instagram"></i> financial.consig
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 text-center text-lg-end">
-                        <div class="d-flex justify-content-end">
-                            <div class="d-flex border-end border-primary pe-3">
-                                <a class="btn p-0 me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn p-0 me-3" onclick="fbq('track', 'Contact');" href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado"><i class="fab fa-whatsapp"></i></a>
-                                <a class="btn p-0 me-3" href="https://www.instagram.com/financial.consig/"><i class="fab fa-instagram"></i></a>
-                            </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-flex justify-content-end">
+                        <div class="d-flex border-end border-primary pe-3">
+                            <a class="btn p-0 me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn p-0 me-3" onclick="fbq('track', 'Contact');"
+                                href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado"><i
+                                    class="fab fa-whatsapp"></i></a>
+                            <a class="btn p-0 me-3" href="https://www.instagram.com/financial.consig/"><i
+                                    class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Topbar End -->
+    </div>
+    <!-- Topbar End -->
 
-        <!-- Navbar & Hero Start -->
-        <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light"> 
-                    <a href="index.html" class="navbar-brand p-0">
-                        <img src="img/logo.png" id="logo" alt="Logo">
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="index.html" class="navbar-brand p-0">
+                    <img src="img/logo.png" id="logo" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars colapse-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-0 mx-lg-auto navbar-gray">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">Sobre</a>
+                        <a href="#" class="nav-item nav-link">Serviços</a>
+                        <a href="#" class="nav-item nav-link">Contato</a>
+                        <a href="termos-uso.html" class="nav-item nav-link">Termos</a>
+                        <a href="politica-privacidade.html" class="nav-item nav-link">Política</a>
+                        <div class="nav-btn px-3">
+                            <a href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado"
+                                class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0">Simule Agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-xl-flex flex-shrink-0 ps-4">
+                    <a href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado"
+                        class="btn btn-light btn-lg-square rounded-circle position-relative wow tada"
+                        data-wow-delay=".9s">
+                        <i class="fa fa-phone fa-2x"></i>
+                        <div class="position-absolute" style="top: 7px; right: 12px;">
+                            <span><i class="fa fa-comment-dots"></i></span>
+                        </div>
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                        <span class="fa fa-bars colapse-bars"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav mx-0 mx-lg-auto navbar-gray">
-                            <a href="index.html" class="nav-item nav-link active">Home</a>
-                            <a href="#" class="nav-item nav-link">Sobre</a>
-                            <a href="#" class="nav-item nav-link">Serviços</a>
-                            <a href="#" class="nav-item nav-link">Contato</a>
-                            <a href="termos-uso.html" class="nav-item nav-link">Termos</a>
-                            <a href="politica-privacidade.html" class="nav-item nav-link">Política</a>
-                            <div class="nav-btn px-3">
-                                <a href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0">Simule Agora</a>
-                            </div>
-                        </div>
+                    <div class="d-flex flex-column ms-3">
+                        <span>Fale Conosco</span>
+                        <a
+                            href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado"><span
+                                class="text-dark">(11) 92218-2332</span></a>
                     </div>
-                    <div class="d-none d-xl-flex flex-shrink-0 ps-4">
-                        <a href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado" class="btn btn-light btn-lg-square rounded-circle position-relative wow tada" data-wow-delay=".9s">
-                            <i class="fa fa-phone fa-2x"></i>
-                            <div class="position-absolute" style="top: 7px; right: 12px;">
-                                <span><i class="fa fa-comment-dots"></i></span>
-                            </div>
-                        </a>
-                        <div class="d-flex flex-column ms-3">
-                            <span>Fale Conosco</span>
-                            <a href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado"><span class="text-dark">(11) 92218-2332</span></a>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <!-- Navbar & Hero End -->
-
-        <!-- Feature Start -->
-        <div class="container-fluid feature bg-light py-5">
-            <div class="container py-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h1 class="display-4 mb-4">Termos de Uso</h1>
                 </div>
-                <div class="row g-4">
-                    <!-- 1. Definições -->
-                    <div class="policy-section" id="t-1">
-                        <h2><span class="section-number">1 -</span> Definições</h2>
-                        <p>Para os efeitos destes Termos de Uso, as seguintes expressões terão os significados abaixo:</p>
-                        <div class="definition-grid">
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Feature Start -->
+    <div class="container-fluid feature bg-light py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h1 class="display-4 mb-4">Termos de Uso</h1>
+            </div>
+            <div class="row g-4">
+                <!-- 1. Definições -->
+                <div class="policy-section" id="t-1">
+                    <h2><span class="section-number">1 -</span> Definições</h2>
+                    <p>Para os efeitos destes Termos de Uso, as seguintes expressões terão os significados abaixo:</p>
+                    <div class="definition-grid">
                         <div class="definition-card">
                             <strong>Empresa</strong>
-                            <span>67.509.498 JOSE CARLOS DA COSTA JUNIOR (Financial Consig), CNPJ 67.509.498/0001-93.</span>
+                            <span>67.509.498 JOSE CARLOS DA COSTA JUNIOR (Financial Consig), CNPJ
+                                67.509.498/0001-93.</span>
                         </div>
                         <div class="definition-card">
                             <strong>Usuário</strong>
-                            <span>Qualquer pessoa física que acessa o site ou utiliza os canais de atendimento da Empresa.</span>
+                            <span>Qualquer pessoa física que acessa o site ou utiliza os canais de atendimento da
+                                Empresa.</span>
                         </div>
                         <div class="definition-card">
                             <strong>Proposta</strong>
-                            <span>Oferta de crédito consignado intermediada pela Empresa junto a uma Instituição Financeira
-                            Parceira.</span>
+                            <span>Oferta de crédito consignado intermediada pela Empresa junto a uma Instituição
+                                Financeira
+                                Parceira.</span>
                         </div>
                         <div class="definition-card">
                             <strong>Convênio</strong>
-                            <span>Acordo firmado entre a Instituição Financeira e o órgão pagador (INSS, prefeitura, governo
-                            estadual etc.).</span>
+                            <span>Acordo firmado entre a Instituição Financeira e o órgão pagador (INSS, prefeitura,
+                                governo
+                                estadual etc.).</span>
                         </div>
                         <div class="definition-card">
                             <strong>Instituição Financeira</strong>
-                            <span>Banco ou instituição de crédito parceira, autorizada pelo BACEN, responsável pela concessão do
-                            crédito.</span>
+                            <span>Banco ou instituição de crédito parceira, autorizada pelo BACEN, responsável pela
+                                concessão do
+                                crédito.</span>
                         </div>
                         <div class="definition-card">
                             <strong>Margem Consignável</strong>
-                            <span>Percentual máximo do benefício ou salário que pode ser comprometido com parcelas de crédito
-                            consignado.</span>
-                        </div>
+                            <span>Percentual máximo do benefício ou salário que pode ser comprometido com parcelas de
+                                crédito
+                                consignado.</span>
                         </div>
                     </div>
+                </div>
 
-                    <!-- 2. Aceite -->
-                    <div class="policy-section" id="t-2">
-                        <h2><span class="section-number">2 -</span> Aceite dos Termos</h2>
-                        <p>
-                        O acesso e o uso do site e dos canais de atendimento (incluindo o WhatsApp Business) da JR Crédito
-                        Consignado implica a <strong>leitura, compreensão e concordância plena</strong> com estes Termos de Uso e
+                <!-- 2. Aceite -->
+                <div class="policy-section" id="t-2">
+                    <h2><span class="section-number">2 -</span> Aceite dos Termos</h2>
+                    <p>
+                        O acesso e o uso do site e dos canais de atendimento (incluindo o WhatsApp Business) da JR
+                        Crédito
+                        Consignado implica a <strong>leitura, compreensão e concordância plena</strong> com estes Termos
+                        de Uso e
                         com nossa <a href="politica-privacidade.html">Política de Privacidade</a>.
-                        </p>
-                        <p>
-                        Se você não concordar com qualquer parte destes Termos, pedimos que se abstenha de utilizar nossos
+                    </p>
+                    <p>
+                        Se você não concordar com qualquer parte destes Termos, pedimos que se abstenha de utilizar
+                        nossos
                         serviços.
-                        </p>
-                        <div class="highlight-box">
-                        O aceite dos termos é gratuito e não gera qualquer compromisso financeiro. A aceitação de uma proposta de
+                    </p>
+                    <div class="highlight-box">
+                        O aceite dos termos é gratuito e não gera qualquer compromisso financeiro. A aceitação de uma
+                        proposta de
                         crédito é uma decisão posterior e voluntária do Usuário.
-                        </div>
                     </div>
+                </div>
 
-                    <!-- 3. Descrição -->
-                    <div class="policy-section" id="t-3">
-                        <h2><span class="section-number">3 -</span> Descrição do Serviço</h2>
-                        <p>
-                        A Financial Consig atua como <strong>correspondente bancário e originador</strong> na simulação e
-                        intermediação de propostas de crédito consignado junto a instituições financeiras parceiras regularmente
+                <!-- 3. Descrição -->
+                <div class="policy-section" id="t-3">
+                    <h2><span class="section-number">3 -</span> Descrição do Serviço</h2>
+                    <p>
+                        A Financial Consig atua como <strong>correspondente bancário e originador</strong> na simulação
+                        e
+                        intermediação de propostas de crédito consignado junto a instituições financeiras parceiras
+                        regularmente
                         autorizadas pelo Banco Central do Brasil (BACEN).
-                        </p>
-                        <div class="danger-box">
-                        <strong>Importante:</strong> A Financial Consig <strong>não é uma instituição financeira</strong> e
-                        não concede crédito diretamente. A contratação final do crédito e a liberação dos recursos são realizadas
+                    </p>
+                    <div class="danger-box">
+                        <strong>Importante:</strong> A Financial Consig <strong>não é uma instituição
+                            financeira</strong> e
+                        não concede crédito diretamente. A contratação final do crédito e a liberação dos recursos são
+                        realizadas
                         exclusivamente pela Instituição Financeira Parceira, após análise e aprovação desta.
-                        </div>
-                        <p>Nossos serviços compreendem:</p>
-                        <ul>
+                    </div>
+                    <p>Nossos serviços compreendem:</p>
+                    <ul>
                         <li>Orientação e simulação de propostas de crédito consignado;</li>
                         <li>Coleta e encaminhamento de documentação às Instituições Financeiras Parceiras;</li>
                         <li>Acompanhamento do status da proposta e comunicação com o Usuário;</li>
                         <li>Atendimento via WhatsApp Business e demais canais oficiais descritos nestes Termos.</li>
-                        </ul>
-                    </div>
+                    </ul>
+                </div>
 
-                    <!-- 4. Elegibilidade -->
-                    <div class="policy-section" id="t-4">
-                        <h2><span class="section-number">4 -</span> Elegibilidade</h2>
-                        <p>Os serviços da Financial Consig são destinados a pessoas físicas que se enquadrem em uma das
+                <!-- 4. Elegibilidade -->
+                <div class="policy-section" id="t-4">
+                    <h2><span class="section-number">4 -</span> Elegibilidade</h2>
+                    <p>Os serviços da Financial Consig são destinados a pessoas físicas que se enquadrem em uma das
                         seguintes categorias:</p>
-                        <table class="data-table">
+                    <table class="data-table">
                         <thead>
                             <tr>
-                            <th>Público</th>
-                            <th>Requisito</th>
+                                <th>Público</th>
+                                <th>Requisito</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                            <td><strong>Aposentados INSS</strong></td>
-                            <td>Beneficiários de aposentadoria (tempo de contribuição, idade ou invalidez) com margem consignável
-                                disponível.</td>
+                                <td><strong>Aposentados INSS</strong></td>
+                                <td>Beneficiários de aposentadoria (tempo de contribuição, idade ou invalidez) com
+                                    margem consignável
+                                    disponível.</td>
                             </tr>
                             <tr>
-                            <td><strong>Pensionistas INSS</strong></td>
-                            <td>Titulares de pensão por morte ou pensão especial com margem consignável disponível.</td>
+                                <td><strong>Pensionistas INSS</strong></td>
+                                <td>Titulares de pensão por morte ou pensão especial com margem consignável disponível.
+                                </td>
                             </tr>
                             <tr>
-                            <td><strong>Servidores Públicos</strong></td>
-                            <td>Servidores ativos ou inativos federais, estaduais ou municipais conforme convênio vigente.</td>
+                                <td><strong>Servidores Públicos</strong></td>
+                                <td>Servidores ativos ou inativos federais, estaduais ou municipais conforme convênio
+                                    vigente.</td>
                             </tr>
                             <tr>
-                            <td><strong>Trabalhadores CLT</strong></td>
-                            <td>Empregados formais de empresas conveniadas, conforme disponibilidade de convênio.</td>
+                                <td><strong>Trabalhadores CLT</strong></td>
+                                <td>Empregados formais de empresas conveniadas, conforme disponibilidade de convênio.
+                                </td>
                             </tr>
                         </tbody>
-                        </table>
-                        <p class="mt-3">O Usuário deve ser maior de 18 anos, possuir CPF ativo e estar em situação regular perante o
+                    </table>
+                    <p class="mt-3">O Usuário deve ser maior de 18 anos, possuir CPF ativo e estar em situação regular
+                        perante o
                         órgão pagador.</p>
-                    </div>
+                </div>
 
-                    <!-- 5. Responsabilidades do Usuário -->
-                    <div class="policy-section" id="t-5">
-                        <h2><span class="section-number">5 -</span> Responsabilidades do Usuário</h2>
-                        <p>Ao utilizar nossos serviços, o Usuário compromete-se a:</p>
-                        <ul>
-                        <li><strong>Fornecer informações verídicas</strong> — todos os dados pessoais, financeiros e documentos
+                <!-- 5. Responsabilidades do Usuário -->
+                <div class="policy-section" id="t-5">
+                    <h2><span class="section-number">5 -</span> Responsabilidades do Usuário</h2>
+                    <p>Ao utilizar nossos serviços, o Usuário compromete-se a:</p>
+                    <ul>
+                        <li><strong>Fornecer informações verídicas</strong> — todos os dados pessoais, financeiros e
+                            documentos
                             enviados devem ser verdadeiros, precisos e atualizados;</li>
-                        <li><strong>Não utilizar os canais de forma indevida</strong> — é proibido o uso dos canais de atendimento
+                        <li><strong>Não utilizar os canais de forma indevida</strong> — é proibido o uso dos canais de
+                            atendimento
                             para envio de conteúdo ilegal, ofensivo, abusivo ou que viole direitos de terceiros;</li>
-                        <li><strong>Manter a confidencialidade</strong> — não compartilhar com terceiros senhas, códigos ou
+                        <li><strong>Manter a confidencialidade</strong> — não compartilhar com terceiros senhas, códigos
+                            ou
                             informações de acesso a canais oficiais;</li>
-                        <li><strong>Comunicar irregularidades</strong> — notificar imediatamente a Empresa em caso de suspeita de
+                        <li><strong>Comunicar irregularidades</strong> — notificar imediatamente a Empresa em caso de
+                            suspeita de
                             uso fraudulento de suas informações;</li>
-                        <li><strong>Arcar com as consequências</strong> de informações falsas ou incompletas, incluindo a
+                        <li><strong>Arcar com as consequências</strong> de informações falsas ou incompletas, incluindo
+                            a
                             impossibilidade de concessão do crédito e eventuais responsabilidades legais.</li>
-                        </ul>
-                        <div class="warning-box">
-                        A prestação de informações falsas pode configurar crime de estelionato ou falsidade ideológica, nos termos
+                    </ul>
+                    <div class="warning-box">
+                        A prestação de informações falsas pode configurar crime de estelionato ou falsidade ideológica,
+                        nos termos
                         dos arts. 171 e 299 do Código Penal Brasileiro.
-                        </div>
                     </div>
+                </div>
 
-                    <!-- 6. Responsabilidades da Empresa -->
-                    <div class="policy-section" id="t-6">
-                        <h2><span class="section-number">6 -</span> Responsabilidades da Empresa e Limitação de Responsabilidade</h2>
-                        <p>A Financial Consig compromete-se a:</p>
-                        <ul>
+                <!-- 6. Responsabilidades da Empresa -->
+                <div class="policy-section" id="t-6">
+                    <h2><span class="section-number">6 -</span> Responsabilidades da Empresa e Limitação de
+                        Responsabilidade</h2>
+                    <p>A Financial Consig compromete-se a:</p>
+                    <ul>
                         <li>Prestar atendimento com qualidade, clareza e respeito ao Usuário;</li>
                         <li>Proteger os dados pessoais conforme a LGPD e demais normas vigentes;</li>
                         <li>Encaminhar as propostas com precisão às Instituições Financeiras Parceiras;</li>
                         <li>Manter canais de atendimento operacionais nos horários divulgados.</li>
-                        </ul>
-                        <div class="danger-box">
-                        <strong>Limitação de responsabilidade:</strong> A aprovação de qualquer proposta de crédito está sujeita
-                        exclusivamente à análise e decisão das Instituições Financeiras Parceiras. <strong>A Financial Consig
-                            não garante a aprovação do crédito</strong>, não possui poder de decisão sobre os critérios de concessão
+                    </ul>
+                    <div class="danger-box">
+                        <strong>Limitação de responsabilidade:</strong> A aprovação de qualquer proposta de crédito está
+                        sujeita
+                        exclusivamente à análise e decisão das Instituições Financeiras Parceiras. <strong>A Financial
+                            Consig
+                            não garante a aprovação do crédito</strong>, não possui poder de decisão sobre os critérios
+                        de concessão
                         e não se responsabiliza por eventuais reprovações.
-                        </div>
-                        <p>A Empresa também não se responsabiliza por:</p>
-                        <ul>
+                    </div>
+                    <p>A Empresa também não se responsabiliza por:</p>
+                    <ul>
                         <li>Indisponibilidades temporárias dos sistemas das Instituições Financeiras Parceiras;</li>
                         <li>Atrasos em liberações de crédito causados por órgãos consignantes;</li>
                         <li>Atos de terceiros fora do controle da Empresa.</li>
-                        </ul>
-                    </div>
+                    </ul>
+                </div>
 
-                    <!-- 7. Canais de atendimento -->
-                    <div class="policy-section" id="t-7">
-                        <h2><span class="section-number">7 -</span> Canais de Atendimento</h2>
-                        <p>O atendimento ao Usuário é realizado pelos seguintes canais oficiais:</p>
-                        <table class="table">
+                <!-- 7. Canais de atendimento -->
+                <div class="policy-section" id="t-7">
+                    <h2><span class="section-number">7 -</span> Canais de Atendimento</h2>
+                    <p>O atendimento ao Usuário é realizado pelos seguintes canais oficiais:</p>
+                    <table class="table">
                         <thead>
                             <tr>
                                 <th>Canal</th>
@@ -306,268 +349,284 @@
                                 <td>Seg. a Sex. — 8h às 17h</td>
                             </tr>
                         </tbody>
-                        </table>
-                        <div class="highlight-box mt-3">
-                        <strong>Atenção:</strong> Desconfie de contatos realizados por números ou e-mails não listados acima. A
-                        Empresa <strong>jamais solicita pagamentos antecipados</strong> ou depósitos como condição para aprovação
+                    </table>
+                    <div class="highlight-box mt-3">
+                        <strong>Atenção:</strong> Desconfie de contatos realizados por números ou e-mails não listados
+                        acima. A
+                        Empresa <strong>jamais solicita pagamentos antecipados</strong> ou depósitos como condição para
+                        aprovação
                         ou liberação de crédito.
-                        </div>
                     </div>
+                </div>
 
-                    <!-- 8. Propriedade Intelectual -->
-                    <div class="policy-section" id="t-8">
-                        <h2><span class="section-number">8 -</span> Propriedade Intelectual</h2>
-                        <p>
-                        Todo o conteúdo deste site — incluindo, mas não se limitando à marca <strong>Financial Consig</strong>, logotipo, textos, layout, imagens, ícones e demais elementos visuais — são de
+                <!-- 8. Propriedade Intelectual -->
+                <div class="policy-section" id="t-8">
+                    <h2><span class="section-number">8 -</span> Propriedade Intelectual</h2>
+                    <p>
+                        Todo o conteúdo deste site — incluindo, mas não se limitando à marca <strong>Financial
+                            Consig</strong>, logotipo, textos, layout, imagens, ícones e demais elementos visuais — são
+                        de
                         propriedade exclusiva da <strong>67.509.498 JOSE CARLOS DA COSTA JUNIOR</strong>.
-                        </p>
-                        <p>
-                        É vedada a reprodução, cópia, distribuição, publicação, transmissão, adaptação ou modificação de qualquer
+                    </p>
+                    <p>
+                        É vedada a reprodução, cópia, distribuição, publicação, transmissão, adaptação ou modificação de
+                        qualquer
                         conteúdo deste site sem autorização prévia e por escrito da Empresa.
-                        </p>
-                        <p>
-                        O uso não autorizado pode configurar violação à Lei de Direitos Autorais (Lei nº 9.610/1998) e demais
+                    </p>
+                    <p>
+                        O uso não autorizado pode configurar violação à Lei de Direitos Autorais (Lei nº 9.610/1998) e
+                        demais
                         legislações aplicáveis, sujeitando o infrator às penalidades civis e criminais cabíveis.
-                        </p>
-                    </div>
+                    </p>
+                </div>
 
-                    <!-- 9. Alterações -->
-                    <div class="policy-section" id="t-9">
-                        <h2><span class="section-number">9 -</span> Alterações nos Termos</h2>
-                        <p>
-                        Estes Termos de Uso podem ser modificados a qualquer momento, a critério da Empresa, para refletir
+                <!-- 9. Alterações -->
+                <div class="policy-section" id="t-9">
+                    <h2><span class="section-number">9 -</span> Alterações nos Termos</h2>
+                    <p>
+                        Estes Termos de Uso podem ser modificados a qualquer momento, a critério da Empresa, para
+                        refletir
                         mudanças em nossas práticas, nos serviços prestados ou na legislação vigente.
-                        </p>
-                        <p>
-                        Alterações relevantes serão comunicadas por meio de aviso em destaque no site e/ou via WhatsApp Business.
-                        A continuidade do uso dos serviços após a notificação de alteração implica a aceitação dos novos termos.
-                        </p>
-                        <p>A data da última revisão estará sempre indicada no cabeçalho desta página.</p>
-                    </div>
+                    </p>
+                    <p>
+                        Alterações relevantes serão comunicadas por meio de aviso em destaque no site e/ou via WhatsApp
+                        Business.
+                        A continuidade do uso dos serviços após a notificação de alteração implica a aceitação dos novos
+                        termos.
+                    </p>
+                    <p>A data da última revisão estará sempre indicada no cabeçalho desta página.</p>
+                </div>
 
-                    <!-- 10. Foro -->
-                    <div class="policy-section" id="t-10">
-                        <h2><span class="section-number">10 -</span> Foro e Legislação Aplicável</h2>
-                        <p>
-                        Estes Termos de Uso são regidos e interpretados de acordo com as leis da <strong>República Federativa do
+                <!-- 10. Foro -->
+                <div class="policy-section" id="t-10">
+                    <h2><span class="section-number">10 -</span> Foro e Legislação Aplicável</h2>
+                    <p>
+                        Estes Termos de Uso são regidos e interpretados de acordo com as leis da <strong>República
+                            Federativa do
                             Brasil</strong>.
-                        </p>
-                        <p>
-                        Quaisquer disputas, controvérsias ou litígios decorrentes da utilização de nossos serviços ou destes
-                        Termos serão submetidos ao <strong>Foro da Comarca de Nossa Senhora do Socorro/SE</strong>, com exclusão
+                    </p>
+                    <p>
+                        Quaisquer disputas, controvérsias ou litígios decorrentes da utilização de nossos serviços ou
+                        destes
+                        Termos serão submetidos ao <strong>Foro da Comarca de Nossa Senhora do Socorro/SE</strong>, com
+                        exclusão
                         de qualquer outro, por mais privilegiado que seja.
-                        </p>
-                        <div class="highlight-box">
+                    </p>
+                    <div class="highlight-box">
                         <i class="fa-solid fa-gavel"></i>
-                        Antes de qualquer medida judicial, as partes comprometem-se a buscar solução amigável, podendo recorrer a
+                        Antes de qualquer medida judicial, as partes comprometem-se a buscar solução amigável, podendo
+                        recorrer a
                         meios alternativos de resolução de conflitos (mediação/arbitragem), conforme Lei nº 13.140/2015.
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Feature End -->
+    </div>
+    <!-- Feature End -->
 
 
-        <!-- Footer Start -->
-        <footer>
-            <!-- Top Row -->
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row g-5">
+    <!-- Footer Start -->
+    <footer>
+        <!-- Top Row -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row g-5">
 
-                        <!-- Col 1: Brand + Dados -->
-                        <div class="col-12 col-md-5">
-                            <img src="img/logo_white_ext.png" style="max-width: 140px;" alt="Logo Financial Consig" class="mb-4">
-                            <p class="footer-brand-desc">
-                                <strong>JOSE CARLOS DA COSTA JUNIOR</strong>
-                                CNPJ: 67.509.498/0001-93<br>
-                                Rua 198, nº 27, Marcos Freire III<br>
-                                Nossa Senhora do Socorro/SE &mdash; CEP 49152-710
-                            </p>
-                            <ul class="footer-contact-list">
-                                <li>
-                                    <a href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado">
-                                        <i class="fab fa-whatsapp"></i>
-                                        (11) 92218-2332
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:financialconsig@outlook.com">
-                                        <i class="fas fa-envelope"></i>
-                                        financialconsig@outlook.com
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <!-- Col 2: Legal -->
-                        <div class="col-6 col-md-3">
-                            <p class="footer-col-title">Legal</p>
-                            <ul class="footer-nav-list">
-                                <li>
-                                    <a href="termos-uso.html">
-                                        <i class="fas fa-chevron-right"></i>
-                                        Termos de Uso
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="politica-privacidade.html">
-                                        <i class="fas fa-chevron-right"></i>
-                                        Política de Privacidade
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <!-- Col 3: Social -->
-                        <div class="col-6 col-md-4">
-                            <p class="footer-col-title">Siga-nos</p>
-                            <div class="footer-social-wrap">
-                                <a class="footer-social-btn" href="#" aria-label="Facebook">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a class="footer-social-btn"
-                                    href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado"
-                                    aria-label="WhatsApp">
+                    <!-- Col 1: Brand + Dados -->
+                    <div class="col-12 col-md-5">
+                        <img src="img/logo_white_ext.png" style="max-width: 140px;" alt="Logo Financial Consig"
+                            class="mb-4">
+                        <p class="footer-brand-desc">
+                            <strong>JOSE CARLOS DA COSTA JUNIOR</strong>
+                            CNPJ: 67.509.498/0001-93<br>
+                            Rua 198, nº 27, Marcos Freire III<br>
+                            Nossa Senhora do Socorro/SE &mdash; CEP 49152-710
+                        </p>
+                        <ul class="footer-contact-list">
+                            <li>
+                                <a
+                                    href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado">
                                     <i class="fab fa-whatsapp"></i>
+                                    (11) 92218-2332
                                 </a>
-                                <a class="footer-social-btn"
-                                    href="https://www.instagram.com/financial.consig/"
-                                    aria-label="Instagram">
-                                    <i class="fab fa-instagram"></i>
+                            </li>
+                            <li>
+                                <a href="mailto:financialconsig@outlook.com">
+                                    <i class="fas fa-envelope"></i>
+                                    financialconsig@outlook.com
                                 </a>
-                            </div>
-                        </div>
-
+                            </li>
+                        </ul>
                     </div>
+
+                    <!-- Col 2: Legal -->
+                    <div class="col-6 col-md-3">
+                        <p class="footer-col-title">Legal</p>
+                        <ul class="footer-nav-list">
+                            <li>
+                                <a href="termos-uso.html">
+                                    <i class="fas fa-chevron-right"></i>
+                                    Termos de Uso
+                                </a>
+                            </li>
+                            <li>
+                                <a href="politica-privacidade.html">
+                                    <i class="fas fa-chevron-right"></i>
+                                    Política de Privacidade
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Col 3: Social -->
+                    <div class="col-6 col-md-4">
+                        <p class="footer-col-title">Siga-nos</p>
+                        <div class="footer-social-wrap">
+                            <a class="footer-social-btn" href="#" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="footer-social-btn"
+                                href="https://wa.me/5511922182332?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20um%20empr%C3%A9stimo%20CLT%20Privado"
+                                aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a class="footer-social-btn" href="https://www.instagram.com/financial.consig/"
+                                aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <!-- Bottom Bar -->
-            <div class="footer-bottom">
-                <div class="container">
-                    <p class="footer-copyright-text">
-                        &copy; 2025 Financial Consig &mdash; Todos os direitos reservados. &nbsp;|&nbsp;
-                        <a href="termos-uso.html" style="color:rgba(255,255,255,0.35); text-decoration:none;">Termos de Uso</a>
-                        &nbsp;&amp;&nbsp;
-                        <a href="politica-privacidade.html" style="color:rgba(255,255,255,0.35); text-decoration:none;">Política de Privacidade</a>
-                    </p>
-                </div>
+        </div>
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="footer-copyright-text">
+                    &copy; 2025 Financial Consig &mdash; Todos os direitos reservados. &nbsp;|&nbsp;
+                    <a href="termos-uso.html" style="color:rgba(255,255,255,0.35); text-decoration:none;">Termos de
+                        Uso</a>
+                    &nbsp;&amp;&nbsp;
+                    <a href="politica-privacidade.html"
+                        style="color:rgba(255,255,255,0.35); text-decoration:none;">Política de Privacidade</a>
+                </p>
             </div>
-        </footer>
-        <!-- Footer End -->
-        <!-- Back to Top -->
-        <a class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
 
-        <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-        <script>
-            document.querySelectorAll('.scroll-to-cotacao').forEach(btn => {
-                btn.addEventListener('click', function(e) {
-                    const target = document.getElementById('cotacao-ad-card');
-                    if (target) {
-                        target.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'center' 
-                        });
-                    }
-                });
-            });
-
-            function formatCelphone(input) {
-                let cel = input.value.replace(/\D/g, "");
-                if (cel.length > 2 && cel.length <= 6) {
-                    cel = "(" + cel.slice(0, 2) + ")" + cel.slice(2);
-                } else if (cel.length > 6 && cel.length <= 10) {
-                    cel = "(" + cel.slice(0, 2) + ")" + cel.slice(2, 6) + "-" + cel.slice(6);
-                } else if (cel.length > 10) {
-                    cel =
-                    "(" + cel.slice(0, 2) + ")" + cel.slice(2, 7) + "-" + cel.slice(7, 11);
+    <script>
+        document.querySelectorAll('.scroll-to-cotacao').forEach(btn => {
+            btn.addEventListener('click', function (e) {
+                const target = document.getElementById('cotacao-ad-card');
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'center'
+                    });
                 }
-                input.value = cel;
-            }
-
-            const input = document.getElementById('neededValue');
-
-            input.addEventListener('input', function () {
-                let value = this.value.replace(/\D/g, '');
-
-                value = (value / 100).toFixed(2) + '';
-                value = value.replace('.', ',');
-                value = value.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
-
-                this.value = 'R$ ' + value;
             });
-            const neededValueInput = document.getElementById('neededValue');
-            const monthsLoanSelect = document.getElementById('monthsLoan');
-            const resultInput = document.getElementById('resultAutoSimulation');
-            const factors = {
-                6: 0.1846,
-                12: 0.10046,
-                24: 0.05905,
-                36: 0.0458
-            };
+        });
 
-            function formatMoney(value) {
-                return value.toLocaleString('pt-BR', {
+        function formatCelphone(input) {
+            let cel = input.value.replace(/\D/g, "");
+            if (cel.length > 2 && cel.length <= 6) {
+                cel = "(" + cel.slice(0, 2) + ")" + cel.slice(2);
+            } else if (cel.length > 6 && cel.length <= 10) {
+                cel = "(" + cel.slice(0, 2) + ")" + cel.slice(2, 6) + "-" + cel.slice(6);
+            } else if (cel.length > 10) {
+                cel =
+                    "(" + cel.slice(0, 2) + ")" + cel.slice(2, 7) + "-" + cel.slice(7, 11);
+            }
+            input.value = cel;
+        }
+
+        const input = document.getElementById('neededValue');
+
+        input.addEventListener('input', function () {
+            let value = this.value.replace(/\D/g, '');
+
+            value = (value / 100).toFixed(2) + '';
+            value = value.replace('.', ',');
+            value = value.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+
+            this.value = 'R$ ' + value;
+        });
+        const neededValueInput = document.getElementById('neededValue');
+        const monthsLoanSelect = document.getElementById('monthsLoan');
+        const resultInput = document.getElementById('resultAutoSimulation');
+        const factors = {
+            6: 0.1846,
+            12: 0.10046,
+            24: 0.05905,
+            36: 0.0458
+        };
+
+        function formatMoney(value) {
+            return value.toLocaleString('pt-BR', {
                 style: 'currency',
                 currency: 'BRL'
-                });
-            }
+            });
+        }
 
-            function parseMoney(value) {
-                return parseFloat(
+        function parseMoney(value) {
+            return parseFloat(
                 value.replace(/\D/g, '')
-                ) / 100;
-            }
+            ) / 100;
+        }
 
-            function calculateSimulation() {
-                const months = monthsLoanSelect.value;
-                const valueMasked = neededValueInput.value;
-                if (!months || !valueMasked) {
+        function calculateSimulation() {
+            const months = monthsLoanSelect.value;
+            const valueMasked = neededValueInput.value;
+            if (!months || !valueMasked) {
                 resultInput.value = '';
                 return;
-                }
-                const neededValue = parseMoney(valueMasked);
-                if (!neededValue) {
+            }
+            const neededValue = parseMoney(valueMasked);
+            if (!neededValue) {
                 resultInput.value = '';
                 return;
-                }
-                const factor = factors[months];
-                const result = neededValue * factor;
-                resultInput.value = formatMoney(result);
             }
+            const factor = factors[months];
+            const result = neededValue * factor;
+            resultInput.value = formatMoney(result);
+        }
 
-            neededValueInput.addEventListener('input', function () {
-                let value = this.value.replace(/\D/g, '');
-                value = (value / 100).toFixed(2);
-                this.value = formatMoney(Number(value));
-                calculateSimulation();
-            });
-            monthsLoanSelect.addEventListener('change', calculateSimulation);
+        neededValueInput.addEventListener('input', function () {
+            let value = this.value.replace(/\D/g, '');
+            value = (value / 100).toFixed(2);
+            this.value = formatMoney(Number(value));
+            calculateSimulation();
+        });
+        monthsLoanSelect.addEventListener('change', calculateSimulation);
 
-            const phoneInput = document.getElementById('floatingPhone');
-            phoneInput.addEventListener('input', function () {
-                let value = this.value.replace(/\D/g, '');
-                if (value.length > 11) value = value.slice(0, 11);
-                value = value.replace(/^(\d{2})(\d)/, '($1)$2');
-                value = value.replace(/(\d{5})(\d)/, '$1-$2');
-                this.value = value;
-            });
+        const phoneInput = document.getElementById('floatingPhone');
+        phoneInput.addEventListener('input', function () {
+            let value = this.value.replace(/\D/g, '');
+            if (value.length > 11) value = value.slice(0, 11);
+            value = value.replace(/^(\d{2})(\d)/, '($1)$2');
+            value = value.replace(/(\d{5})(\d)/, '$1-$2');
+            this.value = value;
+        });
 
-        </script>
-        
+    </script>
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
 
 </html>
